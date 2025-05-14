@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration Page</title>
+</head>
+<body>
+   <header>
+     <h1>Tech Innovators Meetup 2025</h1>
+    <p><b>Event date:</b> 07 july 2025</p>
+    <p><b>Location:</b> Jaipur</p>
+    <p>The Tech Innovators Meetup 2025 is set to be a groundbreaking event, bringing together leaders and pioneers from various fields of technology. It will serve as a platform for discussions on emerging trends, including artificial intelligence, blockchain, cybersecurity, and biotechnology. Experts from diverse industries will share their knowledge, offering insights into the future of digital transformation.
+Beyond discussions, the meetup will provide invaluable networking opportunities, allowing attendees to connect with professionals, entrepreneurs, and visionaries who are shaping the future. There will also be hands-on workshops where participants can gain practical skills in cutting-edge technological domains.
+</p>
+   </header>
+   
+<main>
+    <form action="/server">
+    <label for="Name">Full Name</label>
+    <input type="text" name="Name" id="Name">
+    <br>
+    <br>
+    <label for="email">Email Address</label>
+    <input type="email" name="email" id="email">
+    <br>
+    <br>
+    <label for="contact">Contact Number</label>
+    <input type="number" name="contact" id="contact">
+    <br>
+    <br>
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="Female">Female</label>
+    <input type="radio" name="gender" id="Female" value="female">
+    <br>
+    <br>
+    <label for="college">University</label>
+    <input type="text" id="college" required>
+    <br>
+    <p>Select Your Stream</p>
+    <select name="course" id="course">
+        <option value="Btech">Btech</option>
+        <option value="Bca">Bca</option>
+        <option value="Mtech">Mtech</option>
+        <option value="BA">BA</option>
+    </select>
+
+    <br>
+    <br>
+    <label>Are you bringing a guest?</label>
+    <label for="yes">Yes</label>
+    <input type="checkbox" id="yes" >
+    <label for="no">No</label>
+    <input type="checkbox" id="no" >
+
+    <br>
+    <br>
+    <label for="feedback" >Feedback</label>
+    <textarea id="feedback" placeholder="Enter your valuable feedback ......." rows="5" cols="50" ></textarea>
+    <br>
+    <br>
+    <button>Submit</button>
+</form>
+</main>
+
+
+<footer>
+    <h2>Contact Us</h2>
+    <p><b>Email:</b>tech@yahoo.com</p>
+    <p><b>Phone no:</b>123456789</p>
+    <p>Made with &hearts;</p>
+</footer>
+    
+</body>
+</html>
