@@ -1,0 +1,32 @@
+h1{
+    color: blueviolet;
+    text-align: center;
+    border: solid;
+    /* width: 50%; */
+    text-decoration: black underline;
+        letter-spacing: 10px;
+        font-size: 40px;
+        font-family: cursive;
+        text-decoration: red wavy underline;
+}
+h3{
+    /* text-decoration: underline; */
+}
+h4{
+    text-decoration: red line-through;
+}
+p{
+    text-align: right;
+    font-weight: normal;
+    /* text-decoration: overline; */
+    line-height: 2.5;
+    font-size: 15px;
+    font-family: monospace;
+}
+h2{
+    font-weight: 800;
+}
+
+a{
+    text-decoration: none;
+}
