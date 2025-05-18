@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: brown;
+  text-decoration: black underline;
+  font-family: cursive;
+}
+
+li > h3 {
+  color: green;
+  font-size: 25px;
+}
+
+body {
+  background-color: lightskyblue;
+}
+
+#storename {
+  font-size: 27px;
+  color: blue;
+}
+
+footer {
+  font-size: 12px;
+}
+
+p {
+  line-height: 1.8;
+}
