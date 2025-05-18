@@ -1,0 +1,155 @@
+/* Universal Selector  */
+*{
+    font-family: 'Courier New', Courier, monospace;
+    /* background-color: blue; */
+}
+
+
+
+/* Element Selector  */
+h1,h3{
+    color: #b92b27;
+}
+
+
+
+/* ID selector */
+#login {
+    background-color: rgb(123, 123, 177);  
+}
+
+#signup {
+    background-color: salmon;
+    color: red;
+}
+
+
+/* Class Selector */
+.upvote{
+    background-color: green;
+    color: aliceblue ;
+}
+
+
+
+/* descendant selector */
+.post a {
+    color: rgb(14, 196, 213);
+    background-color: yellow;
+}
+
+nav  ul li{
+    /* background-color: aqua; */
+    color: rgb(240, 22, 98); 
+}
+
+
+
+/* Adjacent Sibling Combinator */
+p + h3 {
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color: rgb(255, 114, 138);
+}
+
+
+
+/* child combinator */
+div > input {
+    background-color: #efb4c2;
+}
+span > p {
+    color: green;
+}
+
+
+
+/* Attribute Selector  */
+input[type="text"]{
+   color: red;
+}
+input[type="password"]{
+    color: blue;
+}
+input[type]{
+    background-color: ghostwhite;
+}
+
+
+
+/* PSEUDO CLASS  */
+
+/* hover  */
+button:hover{
+    background-color: black;
+    color: rgb(245, 245, 245);
+}
+h3:hover{
+    text-decoration: none;
+}
+
+
+
+/* active  */
+button:active {
+    background-color: hotpink;
+    color: rgb(90, 9, 241);
+}
+p:active {
+    font-weight: bold;
+    background-color: rgb(225, 225, 237);
+}
+
+
+/* checked  */
+input[type="radio"]:checked +label {
+    color: red;
+    font-weight: bold;
+}
+
+
+
+/* nth-of-type  */
+div:nth-of-type(2n) {
+    background-color: blanchedalmond;
+}
+
+
+
+/* PSEUDO ELEMENTS  */
+
+/* ::first-letter  */
+h1::first-letter {
+    color: green;
+}
+
+
+/* ::first-line  */
+p::first-line {
+    color: blue;
+}
+
+
+/* ::selection  */
+p::selection {
+    background-color: rgb(27, 254, 69);
+}
+
+
+
+/* Cascading Property  */
+h3{
+    background-color: lightblue;
+}
+h3{
+    background-color: lightcyan;
+}
+
+
+
+/* !important  */
+h3 {
+    background-color: #cd85c7 !important;
+}
