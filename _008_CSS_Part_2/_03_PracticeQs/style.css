@@ -1,0 +1,8 @@
+#myId{
+    color: green;
+}
+
+/* other method  */
+div[id="myId"]{
+    color: green;
+}
