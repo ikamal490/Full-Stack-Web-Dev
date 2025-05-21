@@ -1,0 +1,28 @@
+/* h2 {
+    display: inline;
+    background-color: lightblue;
+}
+
+span {
+    display: block;
+    background-color: lightcoral;
+} */
+
+
+span {
+    /* background-color: yellow; */
+    border: 2px solid black;
+    height: 100px;  /* height set nhi ho rhi */
+    width: 200px;   /* width bhi set nhi ho rhi */
+    padding: 50px; /* Padding or margin left right shift ho rhai hai */
+    margin: 50px;
+}
+
+div {
+       /* background-color: yellow; */
+    border: 2px solid black;
+    height: 100px;  /* height set nhi ho rhi */
+    width: 200px;   /* width bhi set nhi ho rhi */
+    padding: 50px; /* Padding or margin left right shift ho rhai hai */
+    margin: 50px;
+}
