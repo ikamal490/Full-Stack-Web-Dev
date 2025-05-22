@@ -1,0 +1,29 @@
+#contain {
+    width: 400px;
+    background-color: #7aa874;
+    height: 200px;
+    margin: 10px auto;
+    background-image: url(kamal\ coding\ image.png);
+    background-size: contain;
+    color: white;
+}
+
+#cover {
+    width: 400px;
+    background-color: #7aa874;
+    height: 200px;
+    margin: 10px auto;
+    background-image: url(kamal\ coding\ image.png);
+    background-size: cover;
+    color: white;
+}
+
+#auto {
+    width: 400px;
+    background-color: #7aa874;
+    height: 200px;
+    margin: 10px auto;
+    background-image: url(kamal\ coding\ image.png);
+    background-size: auto;
+    color: white;
+}
