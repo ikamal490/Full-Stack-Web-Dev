@@ -7,10 +7,10 @@ Welcome to the **Full Stack Web Development** repository! This is a complete end
 This repository contains well-organized code and resources for learning and building full stack web applications.
 
 ### ✅ Current Upload Status
-- [x] HTML ✅ (Uploaded)
-- [ ] CSS (Uploading...)
-- [ ] JavaScript (Coming soon)
-- [ ] Node.js (Coming soon)
+-  HTML ✅ (Uploaded)
+-  CSS (Uploading...)
+-  JavaScript (Coming soon)
+-  Node.js (Coming soon)
 
 ---
 
@@ -34,9 +34,3 @@ This repository will eventually include:
 
 ---
 
-## 📦 How to Use
-
-You can either:
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/your-username/full-stack-web-dev.git
