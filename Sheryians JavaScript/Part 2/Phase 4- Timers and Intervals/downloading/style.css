@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.download-container {
+  width: 300px;
+  background-color: #1f1f1f;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  text-align: center;
+  color: #fff;
+}   
+
+.progress-bar {
+  width: 10%;
+  height: 20px;
+  background-color: #2c11d5;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.progress {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  transition: width 0.3s;
+}
